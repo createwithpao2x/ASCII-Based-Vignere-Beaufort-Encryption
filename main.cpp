@@ -89,7 +89,7 @@ int main(){
     int method, algorithm = -1;
     string lineInput, keyInput, input, output, key;
     ifstream source, secret;
-    cout << "ASCII-Based Vignere/Beaufort Encryption V1.0: Created by Pao2X [@createwithpao2x]\n\nThis program will pull all ASCII characters (including whitespaces) from\n[C:/source.txt] and [C:/key.txt], then push it in [C:/result.txt].\n";
+    cout << "ASCII-Based Vignere/Beaufort Encryption V1.0: Created by Pao2X [@createwithpao2x]\n\nThis program will pull all ASCII characters (including whitespaces) from\n[E:/source.txt] and [E:/key.txt], then push it in [E:/result.txt].\n";
     ofstream result("E:/result.txt");
     source.open("E:/source.txt");
     while(!source.eof()) {
